@@ -1,6 +1,6 @@
 {
-  "name": "ngx-international-phone-number",
-  "version": "0.1.3",
+  "name": "@getvokl/ngx-international-phone-number",
+  "version": "0.1.5",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -12,22 +12,23 @@
     "lite": "lite-server",
     "playground:build": "tsc -p playground -w",
     "playground": "concurrently \"npm run build:watch\" \"npm run playground:build\" \"npm run lite\"",
-    "test": "tsc && karma start"
+    "test": "tsc && karma start",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhiln/ngx-international-phone-number"
+    "url": "https://github.com/GetVokl/ngx-international-phone-number"
   },
   "author": {
-    "name": "Nikhil Navadiya",
-    "email": "nikhil.navadiya@gmail.com"
+    "name": "GetVokl",
+    "email": "lokesh@getvokl.com"
   },
   "keywords": [
     "angular"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nikhiln/ngx-international-phone-number/issues"
+    "url": "https://github.com/GetVokl/ngx-international-phone-number/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",

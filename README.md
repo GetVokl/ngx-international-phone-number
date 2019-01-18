@@ -1,14 +1,14 @@
 # ngx-international-phone-number
 A simple international telephone number input. Allows you to create a phone number field with country dropdown. 
 
-This is re-written version (with enhancement) of [ng4-intl-phone](https://github.com/kondi0/ng4-intl-phone/). So credit should go to [kondi0](https://github.com/kondi0).
+This is re-written version (with enhancement) of [ngx-international-phone-number](https://github.com/nikhiln/ngx-international-phone-number). So credit should go to [nikhiln](https://github.com/nikhiln).
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install ngx-international-phone-number --save
+$ npm install @GetVokl/ngx-international-phone-number --save
 ```
 
 ## Consuming your library
@@ -64,8 +64,8 @@ If you are getting error "Can't resolve 'google-libphonenumber'" while building 
 
 
 ## Authors
-    * Original Author: kondi0
-    * Author: nikhiln 
+    * Original Author: nikhiln
+    * Author: GetVokl
 ## License
 
 MIT
